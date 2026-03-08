@@ -1,0 +1,80 @@
+export const seedTutors = [
+  {
+    user_id: "1",
+    subjects: ["Data Structures", "Algorithms", "DBMS"],
+    hourly_rate: 800,
+    experience_years: 9,
+    availability: ["Mon", "Wed", "Fri", "Sat"],
+    verified: true,
+    success_rate: 97,
+    total_sessions: 1640,
+    profiles: {
+      full_name: "Dr. Ananya Iyer",
+      avatar_url: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&h=200&fit=crop",
+      bio: "PhD in Computer Science from IISc. Passionate about making DSA and system design easy and intuitive for every engineering student.",
+      location: "Bangalore, KA",
+    },
+    reviews: [
+      {
+        studentName: "Rohit T.",
+        rating: 5,
+        comment: "Clear explanations and practical coding exercises.",
+        subject: "Data Structures",
+      },
+      {
+        studentName: "Aditi S.",
+        rating: 5,
+        comment: "Helped me improve problem solving confidence quickly.",
+        subject: "Algorithms",
+      },
+    ],
+  },
+  {
+    user_id: "2",
+    subjects: ["Machine Learning", "Deep Learning", "AI & Neural Networks"],
+    hourly_rate: 900,
+    experience_years: 7,
+    availability: ["Mon", "Tue", "Wed", "Thu", "Fri"],
+    verified: true,
+    success_rate: 96,
+    total_sessions: 980,
+    profiles: {
+      full_name: "Sneha Verma",
+      avatar_url: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=200&h=200&fit=crop",
+      bio: "AI researcher focused on practical ML with projects and interview prep.",
+      location: "Hyderabad, TS",
+    },
+    reviews: [
+      {
+        studentName: "Divya L.",
+        rating: 5,
+        comment: "Best ML tutor I have had.",
+        subject: "Machine Learning",
+      },
+    ],
+  },
+  {
+    user_id: "3",
+    subjects: ["Operating Systems", "Computer Networks", "Cloud Computing"],
+    hourly_rate: 750,
+    experience_years: 10,
+    availability: ["Sat", "Sun"],
+    verified: true,
+    success_rate: 94,
+    total_sessions: 1450,
+    profiles: {
+      full_name: "Karthik Nair",
+      avatar_url: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=200&h=200&fit=crop",
+      bio: "Senior engineer teaching system fundamentals with real-world examples.",
+      location: "Pune, MH",
+    },
+    reviews: [
+      {
+        studentName: "Nikhil R.",
+        rating: 4,
+        comment: "Structured classes and useful notes.",
+        subject: "Operating Systems",
+      },
+    ],
+  },
+];

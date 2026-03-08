@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: tutormatch-api
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm run start
+    autoDeploy: true
+    envVars:
+      - key: MONGODB_URI
+        sync: false
+      - key: CLIENT_ORIGIN
+        sync: false

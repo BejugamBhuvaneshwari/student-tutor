@@ -50,7 +50,7 @@ curl -X POST http://localhost:5000/api/seed
 
 ## API endpoints
 
-- `GET /api/health`
+
 - `POST /api/auth/signup`
 - `POST /api/auth/signin`
 - `GET /api/auth/user/:userId`

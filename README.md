@@ -40,6 +40,8 @@ npm run dev:client
 ```sh
 curl -X POST http://localhost:5000/api/seed
 ```
+## 5) Project Demo
+[▶️ Click Here to Watch RetinaGuard Demo]  https://drive.google.com/file/d/1Xx2g5WtaBNR81uMunrgSeQN51gcoDTa8/view?usp=drivesdk
 
 ## Demo login (after seeding)
 
